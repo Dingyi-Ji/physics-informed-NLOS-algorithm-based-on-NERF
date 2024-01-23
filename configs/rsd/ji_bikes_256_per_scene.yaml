@@ -1,0 +1,25 @@
+meas:
+  path: bike_data/bike0.mat
+  clip: 512
+  size: 256
+  color: gray
+  ds: 1
+  scale: 1
+  background: 0
+
+rsd:
+  t: 512
+  d: 64
+  h: 256
+  w: 256
+  in_plane: 1
+  wall_size: 2
+  bin_len: 0.01
+  zmin: 0
+  zmax: 2
+  scale_coef: 4
+  n_cycles: 4
+  ratio: 0.1
+  actv: linear
+  norm: none
+

@@ -1,0 +1,21 @@
+meas:
+  path: ./data/synthetic/per_scene/bikes/1cm_600x128x128.hdr
+  clip: 512
+  size: 128
+  color: rgb
+
+rsd:
+  t: 512
+  d: 128
+  h: 128
+  w: 128
+  in_plane: 3
+  wall_size: 2
+  bin_len: 0.01
+  zmin: 0
+  zmax: 2
+  scale_coef: 2
+  n_cycles: 4
+  ratio: 0.1
+  actv: linear
+  norm: none

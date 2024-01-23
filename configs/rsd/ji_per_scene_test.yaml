@@ -1,0 +1,25 @@
+meas:
+  path: letters/data/s/shine_0.0000-rot_-0.5686_29.0474_8.2517-shift_0.1610_-0.1231_-0.0398/1cm_600x128x128.hdr
+  clip: 512
+  size: 128
+  color: gray
+  ds: 1
+  scale: 1
+  background: 0
+
+rsd:
+  t: 512
+  d: 64
+  h: 128
+  w: 128
+  in_plane: 1
+  wall_size: 2
+  bin_len: 0.01
+  zmin: 0
+  zmax: 2
+  scale_coef: 2
+  n_cycles: 4
+  ratio: 0.1
+  actv: linear
+  norm: none
+

@@ -1,0 +1,27 @@
+dataset:
+  root: ./bikes
+  clip: 512
+  size: 256
+  target_size: 256
+  color: gray
+
+split: ji_split_test_256
+
+rsd:
+  t: 512
+  d: 64
+  h: 256
+  w: 256
+  in_plane: 3
+  wall_size: 2
+  bin_len: 0.01
+  zmin: 0
+  zmax: 2
+  scale_coef: 4
+  n_cycles: 4
+  ratio: 0.1
+  actv: linear
+  norm: none
+
+batch_size: 1
+n_workers: 12
